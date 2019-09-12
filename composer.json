@@ -1,0 +1,25 @@
+{
+  "name": "chanyui/testComposer",
+  "description": "this is test of composer",
+  "keywords": [
+    "export",
+    "wordbook"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=5.3"
+  },
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chanyui",
+      "email": "718653142@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Test\\": "src/"
+    }
+  }
+}
